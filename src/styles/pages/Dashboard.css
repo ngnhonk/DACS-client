@@ -1,0 +1,114 @@
+.dashboard {
+  /* background-color: #0073A5; */
+  padding: 5rem 0;
+  padding-top: 9rem;
+}
+
+.dashboard .container-md {
+  max-width: 60%;
+}
+
+.dashboard .section-one {
+  background-color: #51c1f1;
+  padding: 4rem;
+  border-radius: 1.25rem;
+  /* backdrop-filter: blur(5px); */
+}
+.dashboard .section-one .user-info {
+  margin-bottom: 4rem;
+}
+
+.dashboard .section-one .edit-button {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  background-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 8px;
+  transition: 0.25s;
+  border: none;
+}
+.dashboard .section-one .edit-button:hover {
+  transition: 0.25s;
+  background-color: #ebedee;
+}
+.dashboard .section-one .user-info .bio {
+  position: relative;
+  border: none;
+  height: 100%;
+  border-radius: 0.9rem;
+  padding: 1rem;
+  background-color: #a9e5ff;
+  text-align: center;
+}
+.dashboard .section-one .info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.dashboard .section-one .button-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1rem;
+  width: 100%;
+}
+.dashboard .section-one .info button {
+  padding: 0.5rem 2rem;
+  border-radius: 1.5rem;
+  min-width: 75%;
+  border: none;
+  background-color: #e0fbfc;
+  transition: 0.25s;
+}
+.dashboard .section-one .info button:hover {
+  background-color: #8fcde7;
+  transition: 0.5s ease;
+}
+
+.dashboard .button-a:hover {
+  background-color: #8fcde7 !important;
+  transition: 0.5s ease;
+}
+
+.dashboard .section-one .info img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.dashboard .section-one ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard .function .button-a {
+  padding: 0.75rem 0;
+  border-radius: 1.5rem;
+  width: 100%;
+  border: none;
+  background-color: #e0fbfc;
+}
+
+.dashboard .section-two {
+  background-color: #51c1f1;
+  padding: 4rem;
+  border-radius: 1.25rem;
+  margin-top: 3rem;
+}
+
+.dashboard .section-two button {
+  background-color: #0084bc;
+  transition: 0.5s;
+}
+
+.dashboard .section-two button:hover {
+  background-color: #0073a5;
+  transition: 0.5s;
+}
